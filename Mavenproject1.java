@@ -22,7 +22,7 @@ public class Mavenproject1 {
         
         //Consigna 2- ciclo for que imprime del 1 al 100
         System.out.println("\nCiclo For");
-        for(j=0;j<100;j++){
+        for(j=0;j<=100;j++){
             
             System.out.println(j);
     }   
@@ -32,11 +32,11 @@ public class Mavenproject1 {
         do{
             System.out.println(k);
             k++;
-        }while (k!=100); //Mientras k sea distinto a 100 se van a mostrar los numeros
+        }while (k<=100); //Mientras k sea distinto a 100 se van a mostrar los numeros
         
         //Consigna 4- ciclo for que muestra del 1 al 100 pero de 2 en 2
         System.out.println("\nCiclo for de 2 en 2");
-        for(l=0;l<100;l++){ //Incremento l en 1 en la condicion
+        for(l=0;l<=100;l++){ //Incremento l en 1 en la condicion
             System.out.println(l);
             l++; //Vuelvo a incrementar l para que me se muestre por pares,
                  //por cada vuelta el valor de l se incrementa 2 veces
